@@ -7,95 +7,190 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="sidebar">
-      <div class="title">
-        <p>placeholder for logo</p>
-      </div>
-      <div class="side-content">Home</div>
-      <div class="side-content">Profile</div>
-      <div class="side-content">Messages</div>
-      <div class="side-content">History</div>
-      <div class="side-content">Tasks</div>
-      <div class="side-content">Communities</div>
 
-      <div class="side-content">Settings</div>
-      <div class="side-content">Support</div>
-      <div class="side-content">Privacy</div>
-    </div>
-    <div class="searchbar">
-      <div class="lupe">Lupe-Icon</div>
-      <div class="search">Searchbar</div>
-      <div class="bell">Bell-Icon</div>
-      <div class="profile-search">Profile-Icon</div>
-      <div class="name-search">Name</div>
-    </div>
-    <div class="navbar">navbar
-      <ul>
-        <li>Image</li>
-        <li>Morgan Oakley (@morgan)</li>
-        <li>Upload</li>
-        <li>New</li>
-        <li>Upload</li>
-        <li>Share</li>
-      </ul>
-    </div>
-    <div class="projects">
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+  <header class="header">
+    <div class="header1">
+      <div class="search-bar">
+        <img class="search-icon" src="svg/magnify.svg" alt="search-icon">
+        <input type="text" class="search" name="search" placeholder="Search...">
       </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-      </div>
-      <div class="card">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+      <div class="profile">
+        <img src="svg/bell-ring-outline.svg" alt="" class="bell">
+        <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+        <p class="username"><strong>Anhnam Le Giang</strong></p>
       </div>
     </div>
-    <div class="annoucements">
-      <div class="card-announce">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+
+    <div class="header2">
+      <!-- <img src="svg/circle-outline.svg" alt="" class="profile-pic"> -->
+      <div class="greeting">
+        <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+        <div>
+          <p>Hi there,</p>
+          <p><strong>Anhnam Le Giang (@anhnamlegiang)</strong></p>
+        </div>
       </div>
-      <div class="card-trending">
-        <p class="title">Article Title</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+
+      <div class="buttons">
+        <button class="btn">New</button>
+        <button class="btn">Upload</button>
+        <button class="btn">Share</button>
       </div>
     </div>
-  </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="title">
+      <img src="" alt="">
+      <h1>Dashboard</h1>
+    </div>
+
+    <div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/home.svg" alt="home-icon">
+          <p class="sidebar-text">Home</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/account.svg" alt="profile-icon">
+          <p class="sidebar-text">Profile</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/message.svg" alt="message-icon">
+          <p class="sidebar-text">Messages</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/history.svg" alt="history-icon">
+          <p class="sidebar-text">History</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/task.svg" alt="task-icon">
+          <p class="sidebar-text">Task</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/community.svg" alt="communities-icon">
+          <p class="sidebar-text">Communities</p>
+      </div>
+    </div>
+    <div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/setting.svg" alt="settings-icon">
+          <p class="sidebar-text">Settings</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/support.svg" alt="support-icon">
+          <p class="sidebar-text">Support</p>
+      </div>
+      <div class="sidebar-icon">
+          <img class="svg" src="svg/privacy.svg" alt="privacy-icon">
+          <p class="sidebar-text">Privacy</p>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main>
+    <section class="main-content">
+      <h3>Your Projects</h3>
+      <div class="projects">
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae!</p>
+          </div>
+        </div>
+
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates minus officia velit, quis nesciunt nam earum ducimus quia nulla doloribus dolore laudantium iste culpa fuga.</p>
+          </div>
+        </div>
+
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti commodi facilis earum laboriosam quo suscipit.</p>
+          </div>
+        </div>
+
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facere, autem quo voluptates ab ipsum exercitationem saepe dolore quas nostrum?</p>
+          </div>
+        </div>
+
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae!</p>
+          </div>
+        </div>
+
+        <div class="project-div">
+          <div>
+            <h4>Project Name</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <aside class="others">
+
+      <div>
+        <h3>Announcements</h3>
+        <div class="announce">
+          <section class="announce-section">
+            <div class="announce-div">
+              <h4>Site Maintenance</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis iusto quo voluptatibus ipsum minus exercitationem</p>
+            </div>
+            <hr>
+            <div class="announce-div">
+              <h4>Community Share Day</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni ullam laboriosam hic ex dignissimos!</p>
+            </div>
+            <hr>
+            <div class="announce-div">
+              <h4>Updated Privacy Policy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nihil voluptate adipisci commodi nobis hic.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div>
+        <h3>Trending</h3>
+        <div class="trending">
+          <section class="trending-section">
+            <div class="trending-div">
+              <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+              <p>@tegan<br><span>World Peace Builder</span></p>
+            </div>
+
+            <div class="trending-div">
+              <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+              <p>@morgan<br><span>Super Cool Project</span></p>
+            </div>
+
+            <div class="trending-div">
+              <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+              <p>@kendall<br><span>Life Changing App</span></p>
+            </div>
+
+            <div class="trending-div">
+              <img src="svg/circle-outline.svg" alt="" class="profile-pic">
+              <p>@alex<br><span>No Traffic Maker</span></p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </aside>
+
+  </main>
 </body>
 </html>
